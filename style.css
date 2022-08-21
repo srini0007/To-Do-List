@@ -1,0 +1,86 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:#352f5b;
+}
+.container{
+    max-width: 400px;
+    margin-left: 500px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.find_it{
+
+    /* position: absolute; */
+    margin-top:20px;
+}
+
+.dimension{ /* for all displaying attribute */
+    border: none;
+    border-radius: 1%;
+    /* padding: 0px 20px; */
+}
+
+.start{ /*place of text */
+    padding: 0px 20px;
+}
+
+.field{  /*for text field */
+    width: 310px;
+    height:40px;
+}
+.block{  /*display list */
+    width: 350px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    gap:20px;
+}
+
+.delete{
+    cursor: pointer;
+}
+
+span{
+    width:260px;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 550;
+    margin-left: 600px;
+    margin-top:40px;
+    margin-bottom: 0px;
+    color: #fff;
+    /* position: absolute; */
+}
+ul{
+    padding: 0px 0px;
+}
+li{
+    list-style: none;
+    background-color: #423a6f;
+    color: white;
+    margin-bottom: 1px;
+}
+
+input{
+    color: #fff;
+    background-color: rgba(0,0,0,0.2);
+}
+
+
+label{
+    margin-left: 100px;
+    color: white;
+}
+
+.add{
+    margin-top: 10px;
+}
+
+.filtered{
+    display: none;
+}
